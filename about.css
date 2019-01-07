@@ -1,0 +1,114 @@
+body {
+	background-color: black;
+	margin: 0px;
+    display:flex;
+    flex-direction: column;
+    font-family: GT America;
+ 
+} 
+
+#header {
+    height: 100px;
+    width: 100vw;
+    background-color: none;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: fixed;
+    -webkit-text-stroke: 2px black;
+    color: whitesmoke;
+    font-size: 80px;
+    
+    }
+
+#imagem {
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+   position: fixed;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    margin-top: 90px;
+
+
+}
+
+
+#video1 {
+  height: 600px;
+    width: 100vw;
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+    vertical-align: center;
+    padding-top: 100px;
+    
+}
+
+#videoframe1 {
+    height: 400px;
+    width: 50%;
+    background-color: none;
+    position: relative;
+  top: 5%; left: 50%;
+  transform: translate(-50%,-50%);
+  
+ 
+}
+
+#iframe1 {
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+     margin: auto;
+    opacity: 0;
+}
+
+#text1 {
+    height: 0%;
+    width: 100%;
+    font-size: 130px;
+    background-color: darkgreen;
+    position: relative;
+    z-index: 2;
+    vertical-align: center;
+    color: transparent;
+    line-height: 0.01;
+    text-align: center;
+}
+
+.mouse:hover {
+    cursor: hand;
+    opacity: 1;
+    -webkit-text-stroke: 3px black;
+    color: whitesmoke;
+}
+
+.titulo {
+        -webkit-text-stroke: 2px black;
+    color: whitesmoke;
+}
+.titulo:link {
+    text-decoration: none;
+}
+
+.titulo:visited {
+    text-decoration: none;
+}
+
+.titulo:hover {
+    cursor: hand;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.titulo:active {
+    text-decoration-color: none;
+}
