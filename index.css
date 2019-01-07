@@ -3,7 +3,7 @@ body {
 	margin: 0px;
     display:flex;
     flex-direction: column;
-    font-family: GT America;
+    font-family: GT-America-Regular;
  
 } 
 
@@ -244,7 +244,7 @@ body {
     background-color: transparent;
     height: 100%;
     width: 80%;
-     margin: auto;
+    margin: auto;
 }
 
 #text5 {
