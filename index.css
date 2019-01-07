@@ -1,9 +1,14 @@
+@font-face {
+	font-family: GT-America-Light;
+	src: url (GT-America-Light.otf);
+}
+
 body {
 	background-color: black;
 	margin: 0px;
     display:flex;
     flex-direction: column;
-    font-family: Helvetica;
+    font-family: GT America;
  
 } 
 
