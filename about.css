@@ -86,7 +86,7 @@ body {
     z-index: 2;
     vertical-align: center;
     color: transparent;
-    line-height: 0.01;
+    line-height: 1;
     text-align: center;
 }
 
